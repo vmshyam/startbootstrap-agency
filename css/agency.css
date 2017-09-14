@@ -78,6 +78,7 @@ body {
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #fec503; }
   #mainNav .navbar-nav .nav-item .nav-link {
+    text-shadow: 0 0 8px #000000;
     font-size: 90%;
     font-weight: 400;
     padding: 0.75em 0;
@@ -98,6 +99,7 @@ body {
     border: none;
     background-color: transparent; }
     #mainNav .navbar-brand {
+      text-shadow: 0 0 8px #000000;
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
@@ -115,7 +117,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header_image.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -128,6 +130,7 @@ header.masthead {
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
+      text-shadow: 0 0 8px #000000;
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
